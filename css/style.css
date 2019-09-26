@@ -142,9 +142,9 @@ header .overlay {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #e9ecef;
+    border: 7px solid #8b9dc3;
     border-radius: 100%;
-    background-color: #39c3fa;
+    background-image: linear-gradient(45deg, #3b5998, transparent);
 }
 
 .timeline > li .timeline-image h4 {
@@ -1015,7 +1015,7 @@ a:hover {
 .service-box:hover .ico-circle {
     transition: all 500ms ease;
     color: #fff;
-    background-color: #39c3fa;
+    background-image: radial-gradient(circle, #dfe3ee 10%, #3b5998 95%);
     box-shadow: 0 0 0 10px #cde1f8;
 }
 
