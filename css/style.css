@@ -50,7 +50,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('https://source.unsplash.com/random/1600x900') black no-repeat center center scroll;
+        background: url('/img/mob.png') white no-repeat center center scroll;
     }
 
     header video {
@@ -58,6 +58,13 @@ header .overlay {
     }
 }
 
+/*
+@media (max-height: 680px){
+    header {
+        display: none;
+    }
+}
+*/
 
 .page-section {
     padding: 100px 0;
@@ -896,6 +903,30 @@ a:hover {
     opacity: 0.9;
 }
 
+
+/*
+@media (pointer: coarse) and (hover: none) {
+    .navbar-b {
+        background-image: linear-gradient(to right, rgba(255,255,1), rgba(0,0,0,0));
+        padding-bottom: 0.2rem;
+    }
+
+    .navbar-b.navbar-reduce {
+        background-color: #fff;
+        padding-top: 35px;
+
+        padding-bottom: 0px;
+    }
+
+    .navbar-b .navbar-brand {
+        color: red;
+        font-size: 1.6rem;
+        font-weight: 600;
+    }
+}
+*/
+
+
 /*======================================
 //--//-->   INTRO
 ======================================*/
@@ -1074,7 +1105,7 @@ a:hover {
     margin-bottom: 3rem;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background-color: #fff;
+    background-color: background-image: radial-gradient(circle, #dfe3ee 5%, #3b5998 95%);;
 }
 
 .work-box:hover img {
