@@ -11,7 +11,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 95vh;
+    height: 97vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -50,7 +50,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('/img/mob.png') white no-repeat center center scroll;
+        background: url('/img/mob.jpeg') white no-repeat center center scroll;
     }
 
     header video {
