@@ -76,7 +76,7 @@
                 </a>
 
                 <a class="" href="mailto:info@scencyberlab.com" target="_blank">
-                    <i class="fas fa-envelope fa-lg ml-3 fcolor" style="float: right; margin-top:4px;"></i></i>
+                    <i class="fas fa-envelope fa-lg ml-3 fcolor" style="float: right; margin-top:4px;"></i>
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=918078990916&text=Hello.." target="_blank">
                     <i class="fab fa-whatsapp fa-lg ml-3" style="float: right; margin-top:4px;">+91 807 899 0916</i>
@@ -147,7 +147,7 @@
                                 27th Main, 13th Cross <br>
                                 HSR Layout, Sector 1, Bangalore <br>
                                 Karnataka, India - 560 102<br>
-                                Phone: <a href="tel:08025043199" style="color: grey;">080-25043199</a> 
+                                Phone: <a href="tel:08025043199" style="color: grey;">080-25043199</a>
 
 
                                 <div class="pt-5 text-success">
@@ -192,7 +192,7 @@
             <div class="row text-center text-xs-center text-sm-left text-md-left">
 
                 <div class="col-xs-12 col-sm-4 col-md-4">
-                     
+
                     <p> <strong>SCEN Cyber Security Lab</strong><br>
                         No. 6/858-M, 2nd Floor, Suite No.196 <br>
                         Valamkottil Towers, Judgemukku,<br>
@@ -277,11 +277,15 @@
     <script>
         function myMap() {
             var myLatLng = {
-                lat: 10.010575,
-                lng: 76.360692
+                lat: 12.9158578,
+                lng: 77.6495119
+            };
+            var myLatLng1 = {
+                lat: 10.0357734,
+                lng: 76.3320905 
             };
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 12,
+                zoom: 7,
                 center: myLatLng,
                 panControl: true,
                 zoomControl: true,
@@ -292,12 +296,29 @@
                 rotateControl: true,
                 scrollwheel: false
             });
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 7,
+                center: myLatLng1,
+                panControl: true,
+                zoomControl: true,
+                mapTypeControl: false,
+                scaleControl: true,
+                streetViewControl: false,
+                overviewMapControl: true,
+                rotateControl: true,
+                scrollwheel: false
+            });
             var image = 'img/mapmark.png';
-            //            var image = '<i class="fas fa-map-marker-alt"></i>'
             var marker = new google.maps.Marker({
                 position: myLatLng,
                 map: map,
-                title: 'SCEN Cyber Security Lab       ',
+                title: 'SCEN Cyber Security Lab, Bangalore',
+                icon: image
+            });
+            var marker = new google.maps.Marker({
+                position: myLatLng1,
+                map: map,
+                title: 'SCEN Cyber Security Lab, Kochi',
                 icon: image
             });
         }
