@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>http://www.scencyberlab.com/</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/contact.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/services/penetration_testing.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/services/audit_and_review.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/services/security_architecture.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Cyber-Security/Certified_Network_Defender.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Cyber-Security/Certified_Ethical_Hacker.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Cyber-Security/EC-Council_Certified_Security_Analyst.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Cyber-Security/Licensed_Penetration_Tester.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/CCNA_Routing_Switching.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/CCNA_Security.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/CCNP_Security.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/CCIE_Security.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/Multi_Vendor_Firewall.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/F5_load_balancer.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Linux/RedHat_Certified_System_Administrator.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/ceh/CEHv10-Brochure.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/ecsa/ECSAv10-Brochure.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/lpt/LPT-Brochure.pdf</loc>
+  <lastmod>2019-10-02T06:06:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCNA-Security-Syllabus/210-260-iins.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCNP-Security-Syllabus/300-206_senss.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCNP-Security-Syllabus/300-208-sisas.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCNP-Security-Syllabus/300-209_simos.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCNP-Security-Syllabus/300-210-sitcs.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/CCIE-Security-Syllabus/ccie-security-v5_0-etv1_1.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/multi-vendor-firewall/Palo_alto.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/multi-vendor-firewall/Checkpoint.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/courses/Network-Security/multi-vendor-firewall/FORTIGATE.html</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.scencyberlab.com/syllabus/f5/101-app-delivery-fundamentals-exam.pdf</loc>
+  <lastmod>2019-10-02T06:06:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
