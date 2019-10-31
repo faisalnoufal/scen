@@ -154,24 +154,24 @@
                                     <a href="https://api.whatsapp.com/send?phone=918078990916&text=Hello.." target="_blank"><i class="fab fa-whatsapp fa-2x ml-3 fcolor text-success"></i></a></div>
                             </div>
                             <div class="col-sm-12 col-md-6 mt-5 mb-5 p-3 bg-light text-center">
-                                <form>
+                                <form name="contactform" method="post" action="/contactform/send.php">
                                     <div class="form-row">
                                         <div class="form-group col-md-6">
                                             <label for="inputName">Name</label>
-                                            <input type="text" class="form-control" placeholder="Name">
+                                            <input type="text" name="Full_Name" class="form-control" placeholder="Name">
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label for="inputPhone">Phone</label>
-                                            <input type="Number" class="form-control" id="inputPhone" placeholder="000-000-0000" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
+                                            <input type="Number" name="Telephone_Number" class="form-control" placeholder="000-000-0000" maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label for="inputEmail4">Email</label>
-                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                        <input type="email" name="Email_Address" class="form-control" placeholder="Email">
                                     </div>
                                     <div class="form-group">
-                                        <label for="exampleFormControlTextarea1">Message</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <label for="FormControlTextarea1">Message</label>
+                                        <textarea name="Your_Message" class="form-control" rows="3"></textarea>
                                     </div>
                                     <button type="submit" class="btn btn-success">Submit</button>
                                 </form>
@@ -273,61 +273,6 @@
         $('.carousel').carousel()
 
     </script>
-
-    <!--
-    <script>
-        function myMap() {
-            var myLatLng = {
-                lat: 12.9158578,
-                lng: 77.6495119
-            };
-            var myLatLng1 = {
-                lat: 10.0357734,
-                lng: 76.3320905 
-            };
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 7,
-                center: myLatLng,
-                panControl: true,
-                zoomControl: true,
-                mapTypeControl: false,
-                scaleControl: true,
-                streetViewControl: false,
-                overviewMapControl: true,
-                rotateControl: true,
-                scrollwheel: false
-            });
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 7,
-                center: myLatLng1,
-                panControl: true,
-                zoomControl: true,
-                mapTypeControl: false,
-                scaleControl: true,
-                streetViewControl: false,
-                overviewMapControl: true,
-                rotateControl: true,
-                scrollwheel: false
-            });
-            var image = 'img/mapmark.png';
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map,
-                title: 'SCEN Cyber Security Lab, Bangalore',
-                icon: image
-            });
-            var marker = new google.maps.Marker({
-                position: myLatLng1,
-                map: map,
-                title: 'SCEN Cyber Security Lab, Kochi',
-                icon: image
-            });
-        }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHu7ryCt_r8PRcbxAU4w-gXqHUUw53Kx0&callback=myMap"></script>
--->
-
-
 
 </body>
 
