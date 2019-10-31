@@ -14,5 +14,5 @@
 ?>
 
 <script type="text/javascript">
-    window.location = "/contactform/thankyou.html"
+    window.location = "thankyou.html"
 </script>
