@@ -14,7 +14,7 @@
 //    $headers .= 'Reply_To: ' $userEmmail. "\r\n";
         
     if ($userName != "" && $phoneNumber != "" && $userEmail != ""){
-    mail($to, $subject, $body, 'From: ' . $userName );
+    mail($to, $subject, $body);
     
     }
 
