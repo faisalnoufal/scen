@@ -10,11 +10,11 @@
 	$body .= "\r\n Phone: " . $phoneNumber;
  	$body .= "\r\n Email: " . $userEmail;
 	$body .= "\r\n Message: " . $userMessage;
-//    $headers . = 'From: ' . $userEmail . "\r\n";
-//    $headers . = 'Reply_To: ' $userEmmail. "\r\n";
+//    $headers .= 'From: ' . $userEmail . "\r\n";
+    $headers .= 'Reply_To: ' $userEmmail. "\r\n";
         
     if ($userName != "" && $phoneNumber != "" && $userEmail != ""){
-    mail($to, $subject, $body);
+    mail($to, $subject, $body, 'From: ' . $userName );
     
     }
 
