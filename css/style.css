@@ -6,7 +6,8 @@
 /*======================================
 //--//-->   STYLES GENERALES
 ======================================*/
-.required input:after { content:"*"; }
+.required input:after { content:"*"; 
+color:red}
 
 header {
     position: relative;
