@@ -10,8 +10,8 @@
 	$body .= "\r\n Phone: " . $phoneNumber;
  	$body .= "\r\n Email: " . $userEmail;
 	$body .= "\r\n Message: " . $userMessage;
-    $headers = 'From: faisalnoufal@gmail.com' . "\r\n" .
-    'Reply-To: faisalnoufal@gmai.com' . "\r\n" .
+    $headers = 'From: ' . $userEmail . "\r\n" .
+    'Reply-To: ' . $userEmail . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
         
