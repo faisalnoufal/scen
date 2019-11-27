@@ -3,7 +3,7 @@
 	$phoneNumber    = $_POST['Telephone_Number'];
 	$userEmail	 	= $_POST['Email_Address'];
 	$userMessage 		= $_POST['Your_Message'];
-	$to 			= "farizafaisal2007@gmail.com";
+	$to 			= "scencyberlab@gmail.com";
 	$subject 		= "Email from Scen Cyber Security Lab | Contact form";
 	$body 			= "Information Submitted:";
 	$body .= "\r\n Name: " . $userName;
